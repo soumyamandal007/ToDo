@@ -1,0 +1,17 @@
+GET http://localhost:3001/todos
+
+
+###
+POST http://localhost:3001/todo/new
+Content-Type: application/json
+
+{
+    "text" : "Find a new way"
+}
+
+###
+DELETE http://localhost:3001/todo/delete/6578f98ff8845d2dd61c4285
+
+
+###
+DELETE http://localhost:3001/todo/deleteall
